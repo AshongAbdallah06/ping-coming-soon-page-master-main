@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,300;0,600;1,700&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Libre Franklin', sans-serif;
+    position: absolute;
+    top: 50px;
+    right: 100px;
+    padding-bottom: 100px;
+    left: 100px;
+    flex-direction: column;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+.heading {
+    font-weight: 300;
+    font-size: 30px;
+    color: gray;
+    text-align: center;
+}
+
+.heading::after {
+    content: 'soon!';
+    color: black;
+    font-weight: 700;
+}
+
+.subscription-text {
+    text-align: center;
+    font-size: 13px;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.email {
+    padding: 10px; 
+    padding-left: 20px;  
+    width: 280px;
+    padding-right: 20px;
+    margin-right: 10px;
+    border-radius: 50px;
+    outline: none;
+    border: 1px solid rgb(219, 219, 219);
+}
+
+.email::placeholder {
+    color: rgb(219, 219, 219);
+}
+
+.email:focus {
+    outline: none;
+}
+
+.error-message {
+    margin-top: 5px;
+    font-size: 10px;
+    margin-left: 20px;
+    opacity: 0;
+    font-weight: normal;
+    color: red;
+}   
+
+.notify {
+    padding: 10px 35px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    font-weight: 600;
+    background-color: hsl(223, 100%, 63%);
+    border-radius: 50px;
+}
+
+.notify:hover {
+    background-color: hsl(223, 97%, 70%);
+    box-shadow: 2px 5px 10px rgba(178, 178, 178, 0.5);
+}
+
+.notify:active {
+    background-color: rgb(43, 66, 246);
+}
+
+.dashboard {
+    width: 450px;
+    margin-top: 50px;
+    height: 300px;
+}
+
+section {
+    margin-top: 50px;
+}
+
+.icons {
+    display: inline-block;
+    overflow: hidden;
+    padding: 13px;
+    cursor: pointer;
+}
+
+.fb {
+    padding: 13px 18px;
+}
+
+.icons:hover {
+    border-radius: 100px;
+    background-color: hsl(223, 100%, 63%);
+}
+
+.icons:hover img {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(1000%) contrast(500%);
+}
+
+.copyright {
+    text-align: center;
+    color: gray;
+    font-size: 10px;
+}
+
+.copyright-icon {
+    height: 7px;
+    width: 7px;
+}
+
