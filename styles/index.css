@@ -17,6 +17,10 @@ p {
     margin-bottom: 0;
 }
 
+header {
+    text-align: center;
+}
+
 .heading {
     font-weight: 300;
     font-size: 30px;
@@ -97,6 +101,7 @@ p {
 
 section {
     margin-top: 50px;
+    text-align: center;
 }
 
 .icons {
