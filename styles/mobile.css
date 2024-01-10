@@ -61,6 +61,10 @@
     .copyright {
         white-space: nowrap;
     }
+
+    .container {
+        left: 0;
+    }
 }
 
 
